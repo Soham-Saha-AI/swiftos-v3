@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kolkata city coordinates confirmed by Open-Meteo geocoding; no device location is requested. -->
+    <string name="weather_city" translatable="false">Kolkata</string>
+    <string name="weather_latitude" translatable="false">22.56263</string>
+    <string name="weather_longitude" translatable="false">88.36304</string>
+    <string name="weather_unavailable">Unavailable</string>
+    <string name="weather_cached">Cached</string>
+    <string name="weather_source_title">Weather source</string>
+    <string name="weather_source_details">Optional Kolkata weather by Open-Meteo. No location permission or automatic location detection is used. Weather starts off on other TV models; enable or hide it from this menu.\nLicence: CC BY 4.0.\nTemperature rounded to whole degrees Celsius.</string>
+    <string name="weather_enable">Show Kolkata weather</string>
+    <string name="weather_disable">Hide Kolkata weather</string>
+    <string name="weather_source_website">Website</string>
+    <string name="weather_source_licence">Licence</string>
+    <string name="weather_source_close">Close</string>
+    <string name="weather_unavailable_description">Kolkata weather unavailable. It will update when a connection is available.</string>
+    <string name="weather_description">%1$s, %2$s, %3$s. Updated %4$s.</string>
+</resources>

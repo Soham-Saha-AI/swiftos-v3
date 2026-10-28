@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="numbered_order_title">Sort apps</string>
+    <string name="numbered_order_hint">Select an app, then choose its new number. Positions 1–%1$d are the dock. Save when finished.</string>
+    <string name="numbered_order_empty">No home apps to sort.</string>
+    <string name="numbered_order_save">Save</string>
+    <string name="numbered_order_move_title">Move %1$s</string>
+    <string name="numbered_order_destination_hint">Choose the final position, from 1 to %1$d.</string>
+    <string name="numbered_order_row">%1$d. %2$s</string>
+</resources>

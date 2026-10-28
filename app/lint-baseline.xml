@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.5.2">
+  <issue id="MissingTranslation" message="&quot;numbered_order_title&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/numbered_order_strings.xml" line="3" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;numbered_order_hint&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/numbered_order_strings.xml" line="4" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;numbered_order_empty&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/numbered_order_strings.xml" line="5" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;numbered_order_save&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/numbered_order_strings.xml" line="6" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;numbered_order_move_title&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/numbered_order_strings.xml" line="7" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;numbered_order_destination_hint&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/numbered_order_strings.xml" line="8" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;numbered_order_row&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/numbered_order_strings.xml" line="9" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;app_name&quot; is not translated in &quot;it&quot; (Italian)">
+    <location file="src/main/res/values/strings.xml" line="3" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;wifi&quot; is not translated in &quot;it&quot; (Italian)">
+    <location file="src/main/res/values/strings.xml" line="6" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;festival_dussehra_greeting&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="18" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;festival_diwali_greeting&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="19" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;ethernet&quot; is not translated in &quot;it&quot; (Italian)">
+    <location file="src/main/res/values/strings.xml" line="20" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;date_format&quot; is not translated in &quot;in&quot; (Indonesian), &quot;it&quot; (Italian), &quot;ca&quot; (Catalan)">
+    <location file="src/main/res/values/strings.xml" line="24" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;shamsi_month_farvardin&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="27" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;shamsi_month_ordibehesht&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="28" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;shamsi_month_khordad&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="29" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;shamsi_month_tir&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="30" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;shamsi_month_mordad&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="31" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;shamsi_month_shahrivar&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="32" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;shamsi_month_mehr&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="33" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;shamsi_month_aban&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="34" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;shamsi_month_azar&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="35" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;shamsi_month_dey&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="36" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;shamsi_month_bahman&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="37" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;shamsi_month_esfand&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="38" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;stats_cpu&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="39" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;stats_memory&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="40" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;stats_storage&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="41" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;storage_gb_whole&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="42" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;storage_gb_decimal&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="43" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;vpn&quot; is not translated in &quot;de&quot; (German), &quot;it&quot; (Italian), &quot;th&quot; (Thai), &quot;ca&quot; (Catalan)">
+    <location file="src/main/res/values/strings.xml" line="45" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;vpn_off&quot; is not translated in &quot;de&quot; (German) or &quot;th&quot; (Thai)">
+    <location file="src/main/res/values/strings.xml" line="46" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;home_settings&quot; is not translated in &quot;de&quot; (German) or &quot;th&quot; (Thai)">
+    <location file="src/main/res/values/strings.xml" line="47" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;home_settings_help&quot; is not translated in &quot;de&quot; (German) or &quot;th&quot; (Thai)">
+    <location file="src/main/res/values/strings.xml" line="48" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;rows_below_dock_label&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="51" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;wallpaper_label&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="52" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;wallpaper_state&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="53" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;wallpaper_none&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="54" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;wallpaper_applied&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="55" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;wallpaper_theme_default&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="56" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;quick_picture&quot; is not translated in &quot;de&quot; (German), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;ar&quot; (Arabic), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="64" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;quick_network&quot; is not translated in &quot;de&quot; (German), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;ar&quot; (Arabic), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="65" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;quick_apps&quot; is not translated in &quot;de&quot; (German), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;ar&quot; (Arabic), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="66" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;quick_apps_hint&quot; is not translated in &quot;de&quot; (German), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;ar&quot; (Arabic), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="67" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;input_key_service_description&quot; is not translated in &quot;th&quot; (Thai)">
+    <location file="src/main/res/values/strings.xml" line="71" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;home_key_name&quot; is not translated in &quot;de&quot; (German) or &quot;th&quot; (Thai)">
+    <location file="src/main/res/values/strings.xml" line="72" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;home_key_description&quot; is not translated in &quot;de&quot; (German) or &quot;th&quot; (Thai)">
+    <location file="src/main/res/values/strings.xml" line="73" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_prompt_title&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="74" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_prompt_body&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="75" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_prompt_names&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="76" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_prompt_resigned&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="77" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_prompt_relabelled&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="78" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_prompt_hint&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="79" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_prompt_identity&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="80" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_keep_hidden&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="81" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_show&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="82" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_not_saved&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="83" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;module_cards&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="84" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;no_module_cards&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="85" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_app_name&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="86" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_state_shown&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="87" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_state_over_limit&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="88" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_state_hidden&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="89" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_state_new&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="90" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_state_new_key&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="91" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;card_state_new_label&quot; is not translated in &quot;de&quot; (German), &quot;th&quot; (Thai), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="92" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;reorder&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="96" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;reorder_hint&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="97" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;reorder_not_saved&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="98" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;app_library&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="99" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;library_empty&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="100" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;library_on_home&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="101" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;library_add_home&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="102" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;library_remove_shortcut&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="103" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;library_open&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="104" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;library_app_info&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="105" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;library_save_failed&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="106" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;library_recent&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="107" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;library_hint_add&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="108" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;library_hint_open&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="109" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;library_app_count&quot; is not translated in &quot;vi&quot; (Vietnamese)">
+    <location file="src/main/res/values/strings.xml" line="110" column="14" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;greeting_with_name&quot; is not translated in &quot;it&quot; (Italian)">
+    <location file="src/main/res/values/strings.xml" line="115" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_kicker&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="118" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_kicker_no_place&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="119" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_next&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="120" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_lights_out&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="121" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_live&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="122" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_finished&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="123" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_practice_1&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="124" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_practice_2&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="125" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_practice_3&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="126" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_sprint_qualifying&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="127" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_sprint&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="128" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_qualifying&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="129" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_race&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="130" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_practice_1_short&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="131" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_practice_2_short&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="132" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_practice_3_short&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="133" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_sprint_qualifying_short&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="134" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_sprint_short&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="135" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_qualifying_short&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="136" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_race_short&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="137" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_countdown_minutes&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="138" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_countdown_hours&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="139" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;race_countdown_days&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="140" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;last_opened&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/strings.xml" line="143" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;weather_unavailable&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/weather.xml" line="7" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;weather_cached&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/weather.xml" line="8" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;weather_source_title&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/weather.xml" line="9" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;weather_source_details&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/weather.xml" line="10" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;weather_enable&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/weather.xml" line="11" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;weather_disable&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/weather.xml" line="12" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;weather_source_website&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/weather.xml" line="13" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;weather_source_licence&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/weather.xml" line="14" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;weather_source_close&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/weather.xml" line="15" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;weather_unavailable_description&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/weather.xml" line="16" column="13" />
+  </issue>
+  <issue id="MissingTranslation" message="&quot;weather_description&quot; is not translated in &quot;de&quot; (German), &quot;fi&quot; (Finnish), &quot;ru&quot; (Russian), &quot;pt&quot; (Portuguese), &quot;in&quot; (Indonesian), &quot;uz&quot; (Uzbek), &quot;it&quot; (Italian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;es&quot; (Spanish), &quot;iw&quot; (Hebrew), &quot;zh&quot; (Chinese), &quot;cs&quot; (Czech), &quot;ar&quot; (Arabic), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;pl&quot; (Polish), &quot;ca&quot; (Catalan), &quot;nl&quot; (Dutch), &quot;tr&quot; (Turkish), &quot;sr&quot; (Serbian)">
+    <location file="src/main/res/values/weather.xml" line="17" column="13" />
+  </issue>
+</issues>

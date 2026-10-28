@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape><solid android:color="#30243142" /><corners android:radius="21dp" />
+            <stroke android:width="0.75dp" android:color="#38DAE4F4" /></shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape><gradient android:angle="270" android:startColor="#6C21364D" android:endColor="#8C16243B" />
+            <stroke android:width="0.75dp" android:color="#E6F2F8FF" /><corners android:radius="21dp" /></shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <gradient android:angle="270" android:startColor="#80526889" android:endColor="#94304462" />
+            <stroke android:width="1dp" android:color="#DDECF7FF" />
+            <corners android:radius="21dp" />
+        </shape>
+    </item>
+    <!-- Reorder button while reorder mode is on (focus is on the tiles then). -->
+    <item android:state_activated="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#612C5472" />
+            <stroke android:width="1dp" android:color="#BDB5DBFF" />
+            <corners android:radius="21dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:angle="270" android:startColor="#54384B66" android:centerColor="#5C12223A" android:endColor="#4C1F2D46" />
+            <stroke android:width="0.75dp" android:color="#70DAE4F4" />
+            <corners android:radius="21dp" />
+        </shape>
+    </item>
+</selector>
