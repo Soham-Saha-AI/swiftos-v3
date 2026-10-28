@@ -6,6 +6,8 @@
 
 SwiftOS **3.0.1, build 24** (`com.gathin.tvhome`). **[Download SwiftOS v3 for Android TV](https://github.com/Soham-Saha-AI/swiftos-v3/releases/latest/download/SwiftOS-v3-TV-build24.zip)** · [All releases](https://github.com/Soham-Saha-AI/swiftos-v3/releases). Android updates must use the compatible release signing key; private signing material is not stored in this repository. Community forks can build and distribute their own package, but a different signing key cannot update an existing installation under the same app identity.
 
+<img width="1920" height="1080" alt="tv-screenshot" src="https://github.com/user-attachments/assets/71436f10-8b92-4ce2-9d4e-c973cad2e465" />
+
 ## Special features
 
 - A Liquid Glass Android TV interface with five themes and adjustable logo, opacity and font choices.
