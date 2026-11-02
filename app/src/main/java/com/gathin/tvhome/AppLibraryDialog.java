@@ -663,6 +663,8 @@ final class AppLibraryDialog {
         list.setLayoutManager(new GridLayoutManager(activity, LibraryGrid.COLUMNS, RecyclerView.VERTICAL, false) {
             @Override protected boolean isLayoutRTL() { return rtl; }
         });
+        list.setHasFixedSize(true);
+        list.setItemViewCacheSize(18);
         list.setItemAnimator(null);
         list.setOverScrollMode(View.OVER_SCROLL_NEVER);
         list.setClipChildren(false);
