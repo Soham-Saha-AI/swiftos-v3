@@ -389,6 +389,10 @@ final class Config {
         advancedEffects = choices.getBoolean("advanced_effects", advancedEffects);
         File wallpaper = dir != null ? new File(dir, WALLPAPER_NAME) : null;
         if (wallpaper != null && !(wallpaper.isFile() && wallpaper.length() > 0)) wallpaper = null;
+        if (wallpaper == null) {
+            File internalWallpaper = new File(ctx.getFilesDir(), WALLPAPER_NAME);
+            if (internalWallpaper.isFile() && internalWallpaper.length() > 0) wallpaper = internalWallpaper;
+        }
         // A theme can also switch the wallpaper off while the file is still there.
         boolean wallpaperEnabled = json == null || bool(json, "wallpaper", true);
         if (!wallpaperEnabled) wallpaper = null;
@@ -428,6 +432,33 @@ final class Config {
                 wallpapers.add(picked);
                 wallpaper = picked;
                 wallpaperEnabled = true;
+            }
+        }
+        String savedPreset = choices.getString(ThemePicker.THEME_PRESET_KEY, null);
+        if (wallpapers.isEmpty() && wallpaper == null && wallpaperEnabled && savedPreset != null
+                && !"none".equals(wallpaperChoice)) {
+            ThemePicker.Preset preset = ThemePicker.findPreset(savedPreset);
+            if (preset != null) {
+                if (preset.asset != null) {
+                    File internalWallpaper = new File(ctx.getFilesDir(), WALLPAPER_NAME);
+                    if (!internalWallpaper.isFile() || internalWallpaper.length() == 0) {
+                        try (InputStream in = ctx.getAssets().open("themes/" + preset.asset);
+                             FileOutputStream out = new FileOutputStream(internalWallpaper)) {
+                            byte[] buf = new byte[8192];
+                            int r;
+                            while ((r = in.read(buf)) > 0) out.write(buf, 0, r);
+                        } catch (Exception ignored) {}
+                    }
+                    if (internalWallpaper.isFile() && internalWallpaper.length() > 0) {
+                        wallpaper = internalWallpaper;
+                        wallpapers.add(wallpaper);
+                    }
+                }
+                if (background == 0xFF000000 && preset.background != null) {
+                    try {
+                        background = Color.parseColor(preset.background) | 0xFF000000;
+                    } catch (IllegalArgumentException ignored) {}
+                }
             }
         }
         // A festive skin comes only from a theme; config.xml has no festival.
@@ -478,18 +509,19 @@ final class Config {
     private static void syncThemeChoices(SharedPreferences choices, File dir, File config) {
         File revision = dir == null ? null : new File(dir, THEME_REVISION_NAME);
         String token = revisionToken(revision);
+        if ("absent".equals(token)) return;
         String signature = fileStamp(config) + ":" + token;
         String seen = choices.getString(THEME_SIGNATURE_KEY, null);
         if (seen == null) {
             // Existing preferences survive an app upgrade, unless the first launch follows an
             // explicit theme push or reset by the updated tools.
             SharedPreferences.Editor editor = choices.edit();
-            if (!"absent".equals(token)) editor.remove("columns").remove("animations")
-                    .remove("advanced_effects").remove(ROWS_BELOW_DOCK_KEY).remove(WALLPAPER_CHOICE_KEY).remove(ICON_BACKGROUND_OPACITY_KEY);
+            editor.remove("columns").remove("animations")
+                    .remove("advanced_effects").remove(ROWS_BELOW_DOCK_KEY).remove(WALLPAPER_CHOICE_KEY);
             editor.putString(THEME_SIGNATURE_KEY, signature).commit();
         } else if (!seen.equals(signature)) {
             choices.edit().remove("columns").remove("animations").remove("advanced_effects")
-                    .remove(ROWS_BELOW_DOCK_KEY).remove(WALLPAPER_CHOICE_KEY).remove(ICON_BACKGROUND_OPACITY_KEY)
+                    .remove(ROWS_BELOW_DOCK_KEY).remove(WALLPAPER_CHOICE_KEY)
                     .putString(THEME_SIGNATURE_KEY, signature).commit();
         }
     }
@@ -517,10 +549,10 @@ final class Config {
      */
     private static JSONObject readOverlay(Context ctx, File file, boolean mounted) {
         File copy = new File(ctx.getFilesDir(), FILE_NAME);
-        if (!mounted) return read(copy);
+        if (!mounted || file == null || !file.isFile()) return read(copy);
         JSONObject json = read(file);
         if (json == null) {
-            copy.delete();
+            return read(copy);
         } else {
             try (FileOutputStream out = new FileOutputStream(copy)) {
                 out.write(json.toString().getBytes(StandardCharsets.UTF_8));

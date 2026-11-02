@@ -38,7 +38,7 @@ final class AutoWallpaper {
     static void setEnabled(Context context, boolean enabled) {
         context.getApplicationContext()
                 .getSharedPreferences(PREFS, Context.MODE_PRIVATE)
-                .edit().putBoolean(ENABLED, enabled).apply();
+                .edit().putBoolean(ENABLED, enabled).commit();
     }
 
     /** Returns the supported photo family for a fresh reading, or null to keep the current image. */

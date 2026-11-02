@@ -45,10 +45,11 @@ final class ThemePicker {
     // Config's signature includes the config file stamp. A local appearance change acknowledges
     // that stamp itself so Config.load does not mistake it for a full tools/theme.sh reset.
     private static final String SIGNATURE_KEY = "theme_signature";
+    static final String THEME_PRESET_KEY = "theme_preset";
     private static final int CONFIG_LIMIT = 64 * 1024;
     private static final int IMAGE_LIMIT = 16 * 1024 * 1024;
     private static final Object APPLY_LOCK = new Object();
-    private static final Preset[] PRESETS = {
+    static final Preset[] PRESETS = {
             new Preset("Aurora Glass", "aurora.jpg", "#070A14", 0, 0xFF5267C8, 0xFFB67AB5),
             new Preset("Midnight Glass", null, "#080D19", 0, 0xFF263249, 0xFF080D19),
             new Preset("Ocean Glass", "ocean.jpg", "#07121D", 12, 0xFF3995AF, 0xFFDFA565),
@@ -56,6 +57,14 @@ final class ThemePicker {
             new Preset("Valley Glass", "valley.jpg", "#0D1614", 12, 0xFFB38B52, 0xFF45675A),
             new Preset("Liquid Glass", "liquid.png", "#040917", 8, 0xFF182C54, 0xFF6A5EA9)
     };
+
+    static Preset findPreset(String label) {
+        if (label == null) return null;
+        for (Preset preset : PRESETS) {
+            if (preset.label.equalsIgnoreCase(label.trim())) return preset;
+        }
+        return null;
+    }
 
     private ThemePicker() {}
 
@@ -265,9 +274,17 @@ final class ThemePicker {
         File dir = Config.dir(context);
         if (dir == null) return -1;
         try {
-            JSONObject config = readConfig(new File(dir, Config.FILE_NAME));
             SharedPreferences prefs = context.getSharedPreferences(Config.SETTINGS_NAME, Context.MODE_PRIVATE);
             String choice = prefs.getString(Config.WALLPAPER_CHOICE_KEY, null);
+            if (choice == null || Config.WALLPAPER_NAME.equals(choice)) {
+                String savedPreset = prefs.getString(THEME_PRESET_KEY, null);
+                if (savedPreset != null) {
+                    for (int i = 0; i < PRESETS.length; i++) {
+                        if (PRESETS[i].label.equalsIgnoreCase(savedPreset)) return i;
+                    }
+                }
+            }
+            JSONObject config = readConfig(new File(dir, Config.FILE_NAME));
             if (choice != null && !"none".equals(choice) && !Config.WALLPAPER_NAME.equals(choice)) return -1;
             if ("none".equals(choice) || !config.optBoolean("wallpaper", true)) {
                 return "#080D19".equalsIgnoreCase(config.optString("background_color")) ? 1 : -1;
@@ -338,13 +355,19 @@ final class ThemePicker {
                 if (newWallpaper != null) {
                     atomicWrite(wallpaperFile, newWallpaper);
                     wallpaperChanged = true;
+                    File internalWallpaper = new File(context.getFilesDir(), Config.WALLPAPER_NAME);
+                    try { atomicWrite(internalWallpaper, newWallpaper); } catch (IOException ignored) {}
                 }
                 atomicWrite(configFile, newConfig);
                 configChanged = true;
+                File internalConfig = new File(context.getFilesDir(), Config.FILE_NAME);
+                try { atomicWrite(internalConfig, newConfig); } catch (IOException ignored) {}
+
                 String signature = configFile.length() + "@" + configFile.lastModified()
                         + ":" + revisionToken(new File(dir, "theme_revision"));
                 preferencesAttempted = true;
                 if (!prefs.edit().remove(Config.WALLPAPER_CHOICE_KEY)
+                        .putString(THEME_PRESET_KEY, preset.label)
                         .putString(SIGNATURE_KEY, signature).commit()) {
                     throw new IOException("Could not save theme choices");
                 }
@@ -356,6 +379,7 @@ final class ThemePicker {
                 if (preferencesAttempted) {
                     SharedPreferences.Editor rollback = prefs.edit();
                     restoreString(rollback, Config.WALLPAPER_CHOICE_KEY, before);
+                    restoreString(rollback, THEME_PRESET_KEY, before);
                     restoreString(rollback, SIGNATURE_KEY, before);
                     if (configFile.isFile()) {
                         rollback.putString(SIGNATURE_KEY, configFile.length() + "@" + configFile.lastModified()
@@ -447,7 +471,7 @@ final class ThemePicker {
         }
     }
 
-    private static final class Preset {
+    static final class Preset {
         final String label, asset, background;
         final int dim, swatchStart, swatchEnd;
 

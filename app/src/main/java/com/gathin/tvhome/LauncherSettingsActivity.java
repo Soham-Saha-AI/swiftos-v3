@@ -53,7 +53,7 @@ public final class LauncherSettingsActivity extends Activity {
             columnChoices[i].setOnClickListener(v -> {
                 if (columns == value) return;
                 columns = value;
-                choices.edit().putInt("columns", value).apply();
+                choices.edit().putInt("columns", value).commit();
                 setResult(RESULT_OK);
                 refresh();
             });
@@ -65,7 +65,7 @@ public final class LauncherSettingsActivity extends Activity {
             rowChoices[i].setOnClickListener(v -> {
                 if (rowsBelowDock == value) return;
                 rowsBelowDock = value;
-                choices.edit().putInt(Config.ROWS_BELOW_DOCK_KEY, value).apply();
+                choices.edit().putInt(Config.ROWS_BELOW_DOCK_KEY, value).commit();
                 setResult(RESULT_OK);
                 refresh();
             });
@@ -143,7 +143,7 @@ public final class LauncherSettingsActivity extends Activity {
                 .setTitle(R.string.icon_background_opacity)
                 .setSingleChoiceItems(labels, selected, (dialog, which) -> {
                     iconBackgroundOpacity = values[which];
-                    choices.edit().putInt(Config.ICON_BACKGROUND_OPACITY_KEY, iconBackgroundOpacity).apply();
+                    choices.edit().putInt(Config.ICON_BACKGROUND_OPACITY_KEY, iconBackgroundOpacity).commit();
                     setResult(RESULT_OK);
                     refresh();
                     dialog.dismiss();
@@ -187,17 +187,17 @@ public final class LauncherSettingsActivity extends Activity {
                 .setSingleChoiceItems(labels, checked, (dialog, which) -> {
                     dialog.dismiss();
                     if (which == images.size()) {
-                        choices.edit().putString(Config.WALLPAPER_CHOICE_KEY, "none").apply();
+                        choices.edit().putString(Config.WALLPAPER_CHOICE_KEY, "none").commit();
                     } else {
                         choices.edit().putString(Config.WALLPAPER_CHOICE_KEY,
-                                keys[which]).apply();
+                                keys[which]).commit();
                     }
                     setResult(RESULT_OK);
                     Toast.makeText(this, R.string.wallpaper_applied, Toast.LENGTH_SHORT).show();
                     refresh();
                 })
                 .setNeutralButton(R.string.wallpaper_theme_default, (dialog, which) -> {
-                    choices.edit().remove(Config.WALLPAPER_CHOICE_KEY).apply();
+                    choices.edit().remove(Config.WALLPAPER_CHOICE_KEY).commit();
                     setResult(RESULT_OK);
                     refresh();
                 })
@@ -207,7 +207,7 @@ public final class LauncherSettingsActivity extends Activity {
 
     private void setAdvanced(boolean enabled) {
         advancedEffects = enabled;
-        choices.edit().putBoolean("advanced_effects", enabled).apply();
+        choices.edit().putBoolean("advanced_effects", enabled).commit();
         setResult(RESULT_OK);
         refresh();
     }
