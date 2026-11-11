@@ -271,8 +271,6 @@ final class ThemePicker {
     }
 
     private static int currentPreset(Context context) {
-        File dir = Config.dir(context);
-        if (dir == null) return -1;
         try {
             SharedPreferences prefs = context.getSharedPreferences(Config.SETTINGS_NAME, Context.MODE_PRIVATE);
             String choice = prefs.getString(Config.WALLPAPER_CHOICE_KEY, null);
@@ -284,6 +282,8 @@ final class ThemePicker {
                     }
                 }
             }
+            File dir = Config.dir(context);
+            if (dir == null) return -1;
             JSONObject config = readConfig(new File(dir, Config.FILE_NAME));
             if (choice != null && !"none".equals(choice) && !Config.WALLPAPER_NAME.equals(choice)) return -1;
             if ("none".equals(choice) || !config.optBoolean("wallpaper", true)) {

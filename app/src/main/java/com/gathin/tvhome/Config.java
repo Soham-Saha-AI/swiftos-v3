@@ -435,30 +435,28 @@ final class Config {
             }
         }
         String savedPreset = choices.getString(ThemePicker.THEME_PRESET_KEY, null);
-        if (wallpapers.isEmpty() && wallpaper == null && wallpaperEnabled && savedPreset != null
-                && !"none".equals(wallpaperChoice)) {
-            ThemePicker.Preset preset = ThemePicker.findPreset(savedPreset);
-            if (preset != null) {
-                if (preset.asset != null) {
-                    File internalWallpaper = new File(ctx.getFilesDir(), WALLPAPER_NAME);
-                    if (!internalWallpaper.isFile() || internalWallpaper.length() == 0) {
-                        try (InputStream in = ctx.getAssets().open("themes/" + preset.asset);
-                             FileOutputStream out = new FileOutputStream(internalWallpaper)) {
-                            byte[] buf = new byte[8192];
-                            int r;
-                            while ((r = in.read(buf)) > 0) out.write(buf, 0, r);
-                        } catch (Exception ignored) {}
-                    }
-                    if (internalWallpaper.isFile() && internalWallpaper.length() > 0) {
-                        wallpaper = internalWallpaper;
-                        wallpapers.add(wallpaper);
-                    }
+        ThemePicker.Preset preset = savedPreset != null ? ThemePicker.findPreset(savedPreset) : null;
+        if (preset != null) {
+            if (wallpapers.isEmpty() && wallpaper == null && wallpaperEnabled
+                    && !"none".equals(wallpaperChoice) && preset.asset != null) {
+                File internalWallpaper = new File(ctx.getFilesDir(), WALLPAPER_NAME);
+                if (!internalWallpaper.isFile() || internalWallpaper.length() == 0) {
+                    try (InputStream in = ctx.getAssets().open("themes/" + preset.asset);
+                         FileOutputStream out = new FileOutputStream(internalWallpaper)) {
+                        byte[] buf = new byte[8192];
+                        int r;
+                        while ((r = in.read(buf)) > 0) out.write(buf, 0, r);
+                    } catch (Exception ignored) {}
                 }
-                if (background == 0xFF000000 && preset.background != null) {
-                    try {
-                        background = Color.parseColor(preset.background) | 0xFF000000;
-                    } catch (IllegalArgumentException ignored) {}
+                if (internalWallpaper.isFile() && internalWallpaper.length() > 0) {
+                    wallpaper = internalWallpaper;
+                    wallpapers.add(wallpaper);
                 }
+            }
+            if (background == 0xFF000000 && preset.background != null) {
+                try {
+                    background = Color.parseColor(preset.background) | 0xFF000000;
+                } catch (IllegalArgumentException ignored) {}
             }
         }
         // A festive skin comes only from a theme; config.xml has no festival.
@@ -506,7 +504,7 @@ final class Config {
         return races;
     }
 
-    private static void syncThemeChoices(SharedPreferences choices, File dir, File config) {
+    static void syncThemeChoices(SharedPreferences choices, File dir, File config) {
         File revision = dir == null ? null : new File(dir, THEME_REVISION_NAME);
         String token = revisionToken(revision);
         if ("absent".equals(token)) return;
@@ -517,11 +515,13 @@ final class Config {
             // explicit theme push or reset by the updated tools.
             SharedPreferences.Editor editor = choices.edit();
             editor.remove("columns").remove("animations")
-                    .remove("advanced_effects").remove(ROWS_BELOW_DOCK_KEY).remove(WALLPAPER_CHOICE_KEY);
+                    .remove("advanced_effects").remove(ROWS_BELOW_DOCK_KEY)
+                    .remove(WALLPAPER_CHOICE_KEY).remove(ThemePicker.THEME_PRESET_KEY);
             editor.putString(THEME_SIGNATURE_KEY, signature).commit();
         } else if (!seen.equals(signature)) {
             choices.edit().remove("columns").remove("animations").remove("advanced_effects")
                     .remove(ROWS_BELOW_DOCK_KEY).remove(WALLPAPER_CHOICE_KEY)
+                    .remove(ThemePicker.THEME_PRESET_KEY)
                     .putString(THEME_SIGNATURE_KEY, signature).commit();
         }
     }
