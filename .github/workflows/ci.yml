@@ -1,0 +1,51 @@
+name: SwiftOS v3 Android CI
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: swiftos-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Run Android JVM Unit Tests and Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Run unit tests and lint
+        run: gradle testReleaseUnitTest lintRelease --no-daemon --console=plain
+
+      - name: Check unit test outcomes
+        run: |
+          total_tests=$(grep -h -o 'tests="[0-9]*"' app/build/test-results/testReleaseUnitTest/TEST-*.xml | sed 's/[^0-9]//g' | awk '{s+=$1} END {print s}')
+          echo "Total unit tests executed: $total_tests"
+          if [ "$total_tests" -lt 260 ]; then
+            echo "Expected at least 260 tests, but found $total_tests"
+            exit 1
+          fi
+          echo "All unit tests verified successfully."
